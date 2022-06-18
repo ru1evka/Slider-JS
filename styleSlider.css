@@ -1,0 +1,329 @@
+
+body {
+    margin: 0;
+}
+
+.conteiner {
+    max-width: 1256px;
+    margin: 0 auto;
+}
+.conteiner1 {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+           /* Slider */
+/*-------------------------------*/
+
+   /* Slider__LEFT */   
+/*-------------------*/
+
+.slider {
+    background: #131313;
+    margin: 0;
+    height: 1074px;
+}
+
+.conteiner2 {
+    width: 100%;
+    max-width: 1044px;
+    margin: 0 auto;
+}
+
+.section__slider {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 107px;
+}
+
+.Admiral {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+    text-decoration: none;
+}
+
+.Admiral.active,
+.Admiral:hover {
+    transition: color .3s linear;
+    color: #E3B873;
+    text-decoration: underline;
+}
+
+.Sochi {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+    text-decoration: none;
+    padding-left: 60px;
+}
+
+.Sochi.active,
+.Sochi:hover {
+    transition: color .3s linear;
+    color: #E3B873;
+    text-decoration: underline;
+}
+
+.Patriotic {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+    text-decoration: none;
+    padding-left: 60px;
+}
+
+.Patriotic.active,
+.Patriotic:hover {
+    transition: color .3s linear;
+    color: #E3B873;
+    text-decoration: underline;
+}
+
+.slider__test {
+    padding-top: 53px;
+}
+
+.Completed {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: #E3B873;
+    padding-bottom: 34px;
+    margin: 0;
+    width: 160px;
+}
+
+.Only {
+    margin: 0;
+    padding-bottom: 42px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF;
+    text-align: justify;
+    margin-right: 50px;
+}
+
+.text {
+    display: flex;
+    flex-direction: row;
+}
+
+.prev {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.dot {
+    margin-left: 18px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.dot__one:hover {
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.dot__two:hover {
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.dot__free:hover {
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.next {
+    margin-left: 18px;
+    cursor: pointer;
+    text-decoration: none; 
+}
+
+.City {
+    margin: 0;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+    padding-bottom: 9px;
+}
+
+.p__l {
+    margin: 0;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding-bottom: 34px;
+}
+
+.repairTime {
+    margin: 0;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding-bottom: 34px;
+}
+
+.time {
+    margin: 0;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+    padding-bottom: 9px;
+}
+
+.text__r {
+    padding-left: 68px;
+    margin: 0;
+}
+
+.apartment {
+    margin: 0;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+    padding-bottom: 9px;
+}
+
+.p__r {
+    margin: 0;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding-bottom: 55px;
+}
+
+.apartmentArea {
+    margin: 0;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding-bottom: 55px;
+}
+
+.Cost {
+    margin: 0;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+    padding-bottom: 9px;
+}
+
+.arrows {
+    width: 206px;
+    margin-top: 13px;
+}
+
+   /* Slider__RIGHT */   
+/*--------------------*/
+
+.slider__test {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.imgRun {
+    display: flex;
+    flex-direction: row;
+}
+
+.slider__right {
+    filter: drop-shadow(0px 50px 30px rgba(0, 0, 0, 0.1));
+    position: relative;
+    width: 1626px;
+    height: 482px;
+}
+
+.slider__right .image {
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.slider__right .image.active {
+    opacity: 1;
+}
+
+.slider__dots {
+    display: flex;
+    justify-content: center;
+}
+
+.prev {
+    margin-right: 18px;
+}
+
+.slider__dots-item {
+    width: 10px;
+    height: 10px;
+    background: rgb(150, 138, 138);
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.slider__dots-item.active,
+.slider__dots-item:hover {
+    transition: background .3s linear;
+    background: rgb(255, 255, 255);
+}
+
+.img__slider {
+    padding-bottom: 92px;
+}
+.img__slider1 {
+    display: none;
+}
